@@ -1,0 +1,37 @@
+name: knowledge_hunter_supportweb
+description: Support website for Knowledge Hunter application
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.1.0
+  url_launcher: ^6.1.10
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    
+  fonts:
+    - family: Quantify
+      fonts:
+        - asset: assets/fonts/Quantify.ttf
+    - family: Oxanium
+      fonts:
+        - asset: assets/fonts/Oxanium-Regular.ttf
+        - asset: assets/fonts/Oxanium-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Oxanium-Bold.ttf
+          weight: 700
